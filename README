@@ -1,0 +1,9 @@
+To use iut you just need to execute it and it will be clone by it self. If you want to execute some code so it seems to be a normal .py you can add it after the ###End###
+
+Para usarlo solo tienes que ejecutarlo y se clonará solo. Si quieres disimularlo despues del ###End### puedes poner otro código que se ejecutará tras haber infectado los demas archivos.
+
+Please be careful using this code, this is only for educational propouses. Don't open it if you have other .py or / .pyw in the same file or in the next folder.
+For example if you have Something/Directory/virus.py it will infect all the files in directory and in something. So please be careful with that.
+
+Este código esta hecho con la intención de aprender. Por favor tenga cuidado al ejecutar el código ya que infectara todo los .py/.pyw en ese directorio y en el directorio anterior.
+Por ejemplo si tu tienes Algo/Carpeta/virus.py y ejecutas el virus.py este infectará a todos los .py/.pyw de Carpeta y de Virus. Por favor cuidado con eso.
