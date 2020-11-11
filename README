@@ -1,4 +1,4 @@
-To use iut you just need to execute it and it will be clone by it self. If you want to execute some code so it seems to be a normal .py you can add it after the ###End###
+To use it you just need to execute it and it will be clone by it self. If you want to execute some code so it seems to be a normal .py you can add it after the ###End###
 
 Para usarlo solo tienes que ejecutarlo y se clonará solo. Si quieres disimularlo despues del ###End### puedes poner otro código que se ejecutará tras haber infectado los demas archivos.
 
